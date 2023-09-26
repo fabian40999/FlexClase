@@ -1,0 +1,145 @@
+body {
+    background: #fafafa;
+    width: 700px;
+    margin: auto;
+}
+
+h1 {
+    color: #000000;
+}
+
+#principal {
+    background: #9f8564;
+}
+
+.contenedor {
+    width: 690px;
+    border: 3px solid #000000;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img {
+    background: #000000;
+    color: #fff;
+    width: 120px;
+    height: 100px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p {
+    margin: 38px;
+}
+
+#caja1 {
+    flex-direction: row;
+}
+
+#caja1>div {
+    background: #ffffff;
+}
+
+
+#caja2 {
+    flex-direction: row-reverse;
+}
+
+#caja2>div {
+    background: #ffffff;
+}
+
+
+#caja3 {
+    width: 130px;
+    flex-direction: column;
+}
+
+#caja3>div {
+    background: #ffffff;
+}
+
+
+#caja4 {
+    width: 130px;
+    flex-direction: column-reverse;
+}
+
+#caja4>div {
+    background: #ffffff;
+}
+
+
+#caja5 {
+    width: 130px;
+    flex-wrap: wrap;
+}
+
+#caja5>div {
+    background: #ffffff;
+}
+
+
+#caja6 {
+    width: 130px;
+    flex-wrap: nowrap;
+}
+
+#caja6>div {
+    background: #ffffff;
+}
+
+
+#caja7 {
+    width: 130px;
+    flex-wrap: wrap-reverse;
+}
+
+#caja7>div {
+    background: #ffffff;
+}
+
+
+#caja8 {
+    justify-content: flex-start;
+}
+
+#caja8>div {
+    background: #ffffff;
+}
+
+
+#caja9 {
+    justify-content: flex-end;
+}
+
+#caja9>div {
+    background: #ffffff;
+}
+
+
+#caja10 {
+    justify-content: center;
+}
+
+#caja10>div {
+    background: #ffffff;
+}
+
+
+#caja11 {
+    justify-content: space-between;
+}
+
+#caja11>div {
+    background: #ffffff;
+}
+
+
+#caja12 {
+    justify-content: space-around;
+}
+
+#caja12>div {
+    background: #ffffff;
+}
